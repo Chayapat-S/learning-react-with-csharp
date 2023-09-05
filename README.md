@@ -6,4 +6,4 @@ learn how to create web and try something new
 
 npx create-react-app app
 
-dotnet new console -n api
+dotnet new webapi -n api
