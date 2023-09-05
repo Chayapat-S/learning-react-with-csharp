@@ -128,3 +128,31 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# .NET
+/bin/
+/obj/
+/.vscode
+/.vs/
+/*.user
+/*.suo
+/*.log
+/*.vspscc
+*.dbmdl
+*.dbproj.schemaview
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# Node.js & npm
+/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React.js
+/.idea
+/.vscode
+.DS_Store
+/public/bundle.js
+/build
+/node_modules
