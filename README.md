@@ -13,7 +13,11 @@ learn how to create web and try something new
 - devops
   - try kubernate
 - api
-  - ~~found base structure~~
+  - ~~found base structure~~ `[Icon]`
   - try serilog
   - try elastic
   - try signalR
+- app
+  - found base structure
+  - add redux toolkit
+  - add axios
