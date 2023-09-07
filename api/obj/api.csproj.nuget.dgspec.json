@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/projectsoft/Documents/LearningProject/LearningReactWithCSharp/learning-react-with-csharp/api/api.csproj": {}
+    "/Users/icon/Documents/Learn/learning-react-with-csharp-main/api/api.csproj": {}
   },
   "projects": {
-    "/Users/projectsoft/Documents/LearningProject/LearningReactWithCSharp/learning-react-with-csharp/api/api.csproj": {
+    "/Users/icon/Documents/Learn/learning-react-with-csharp-main/api/api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/projectsoft/Documents/LearningProject/LearningReactWithCSharp/learning-react-with-csharp/api/api.csproj",
+        "projectUniqueName": "/Users/icon/Documents/Learn/learning-react-with-csharp-main/api/api.csproj",
         "projectName": "api",
-        "projectPath": "/Users/projectsoft/Documents/LearningProject/LearningReactWithCSharp/learning-react-with-csharp/api/api.csproj",
-        "packagesPath": "/Users/projectsoft/.nuget/packages/",
-        "outputPath": "/Users/projectsoft/Documents/LearningProject/LearningReactWithCSharp/learning-react-with-csharp/api/obj/",
+        "projectPath": "/Users/icon/Documents/Learn/learning-react-with-csharp-main/api/api.csproj",
+        "packagesPath": "/Users/icon/.nuget/packages/",
+        "outputPath": "/Users/icon/Documents/Learn/learning-react-with-csharp-main/api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/projectsoft/.nuget/NuGet/NuGet.Config"
+          "/Users/icon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -39,11 +39,83 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.IdentityModel": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Formatting.Elasticsearch": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
               "version": "[6.5.0, )"
             }
