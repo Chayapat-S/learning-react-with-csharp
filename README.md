@@ -10,9 +10,9 @@ learn how to create web and try something new
 
 ## todo
 
-* devops
-  * try kubernate
-* api
-  ~~* found base structure~~
-  * try serilog
-  * try elastic
+- devops
+  - try kubernate
+- api
+  - ~~found base structure~~
+  - try serilog
+  - try elastic
