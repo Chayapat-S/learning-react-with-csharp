@@ -8,7 +8,7 @@ learn how to create web and try something new
 
 `dotnet new webapi -n api`
 
-## todo
+## todo or something i want to try
 
 - devops
   - try kubernate
@@ -16,3 +16,4 @@ learn how to create web and try something new
   - ~~found base structure~~
   - try serilog
   - try elastic
+  - try signalR
