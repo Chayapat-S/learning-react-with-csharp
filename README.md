@@ -17,6 +17,7 @@ learn how to create web and try something new
   - try serilog
   - try elastic
   - try signalR
+  - try to learn the difference between dapper adn entity framwork
 - app
   - found base structure
   - add redux toolkit
