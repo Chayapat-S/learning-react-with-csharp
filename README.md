@@ -21,3 +21,6 @@ learn how to create web and try something new
   - found base structure
   - add redux toolkit
   - add axios
+- QA
+  - Cypress
+  - jest
