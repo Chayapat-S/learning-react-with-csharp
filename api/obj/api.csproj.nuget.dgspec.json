@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "/Users/icon/Documents/Learn/learning-react-with-csharp-main/api/api.csproj": {}
+    "E:\\Learning\\learning-react-with-csharp\\api\\api.csproj": {}
   },
   "projects": {
-    "/Users/icon/Documents/Learn/learning-react-with-csharp-main/api/api.csproj": {
+    "E:\\Learning\\learning-react-with-csharp\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/icon/Documents/Learn/learning-react-with-csharp-main/api/api.csproj",
+        "projectUniqueName": "E:\\Learning\\learning-react-with-csharp\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "/Users/icon/Documents/Learn/learning-react-with-csharp-main/api/api.csproj",
-        "packagesPath": "/Users/icon/.nuget/packages/",
-        "outputPath": "/Users/icon/Documents/Learn/learning-react-with-csharp-main/api/obj/",
+        "projectPath": "E:\\Learning\\learning-react-with-csharp\\api\\api.csproj",
+        "packagesPath": "C:\\Users\\Icon\\.nuget\\packages\\",
+        "outputPath": "E:\\Learning\\learning-react-with-csharp\\api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/icon/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Icon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
