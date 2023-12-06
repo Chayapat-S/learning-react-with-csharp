@@ -14,7 +14,7 @@ using api.Repositories.Abstraction;
 
 namespace api.Controllers
 {
-	public class UserController 
+	public class UserController : ControllerBase
 	{
 
 		[HttpPost("insertupdate")]
@@ -22,11 +22,12 @@ namespace api.Controllers
 		{
 			try
 			{
-				
-			}
+
+				return StatusCode(200, "");
+            }
 			catch (Exception e)
 			{
-				return StatusCodes(500, e.Message);
+				return StatusCode(500, e.Message);
 			}
 		}
 	}

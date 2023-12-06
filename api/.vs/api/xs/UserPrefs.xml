@@ -1,15 +1,36 @@
-﻿<Properties StartupConfiguration="{E1545592-597A-48F6-A271-BCE2EDD0FE4E}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+﻿<Properties StartupConfiguration="{E1545592-597A-48F6-A271-BCE2EDD0FE4E}|WebApi">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/UserModels.cs">
     <Files>
-      <File FileName="Startup.cs" Line="30" Column="14" />
+      <File FileName="Startup.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="Infrastructure/AppSettings.cs" />
+      <File FileName="appsettings.json" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="Repositories/Abstraction/IUserRepository.cs" />
+      <File FileName="Repositories/Concrete/UserRepository.cs" />
+      <File FileName="Models/WeatherForecast.cs" />
+      <File FileName="Infrastructure/MapperProfile.cs" />
+      <File FileName="Infrastructure/ExtensionMethods.cs" />
+      <File FileName="Controllers/UserController.cs" />
+      <File FileName="Models/UserModels.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="api">
             <Node name="api">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="UserModels.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Repositories">
+                <Node name="Concrete" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -18,10 +39,4 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

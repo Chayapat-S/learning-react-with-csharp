@@ -1,9 +1,10 @@
-
+using api.Models;
 
 namespace api.Repositories.Abstraction
 {
-    public class IUserRepository
+    public interface IUserRepository
     {
+        Task<InsertUpdateUserRequest> InsertUpdate(InsertUpdateUserRequest member);
 
     }
 }
