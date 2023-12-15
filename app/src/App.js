@@ -8,6 +8,8 @@ import Home from "./pages/Home";
 
 function App() {
 
+
+
   pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
   async function checkPDFVersion(pdfUrl) {
     const loadingTask = pdfjs.getDocument(pdfUrl);
